@@ -1,6 +1,6 @@
 # Academic project audit
 
-Youssef Rafik submitted *Non-Parametric Analysis of Medical Insurance Charges* for MAT 429, Modern Nonparametric Methods, at Southern Connecticut State University in Spring 2026. The report and R script in this repository are unchanged copies. The academic report is evidence of the original analysis.
+Youssef Rafik submitted *Non-Parametric Analysis of Medical Insurance Charges* for MAT 429, Modern Nonparametric Methods, at Southern Connecticut State University in Spring 2026. This audit used the original report and R script. The unchanged academic report is included in this repository.
 
 The script uses ggplot2 and dplyr for summaries and visual exploration, then base R for Shapiro–Wilk, 1.5 × IQR fences, asymptotic Wilcoxon tests, Kruskal–Wallis, Bonferroni pairwise Wilcoxon, Welch t-tests, ordinary one-way ANOVA and asymptotic Spearman tests. The four research questions cover smoking status, region, sex, and monotonic associations with age, BMI and children.
 

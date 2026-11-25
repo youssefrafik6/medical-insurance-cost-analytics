@@ -92,7 +92,7 @@ The sampling process and observation period are unknown. The data support educat
 
 ## Author and references
 
-**Youssef Rafik.** Based on *Non-Parametric Analysis of Medical Insurance Charges*, MAT 429 — Modern Nonparametric Methods, Southern Connecticut State University, Spring 2026. The [original report](reports/original_report.pdf) and [original R script](archive/MAT429_final_project_code.R) are preserved. The dashboard, SQL, Python pipeline, uncertainty analysis and reproducibility tooling are portfolio additions.
+**Youssef Rafik.** Based on *Non-Parametric Analysis of Medical Insurance Charges*, MAT 429 — Modern Nonparametric Methods, Southern Connecticut State University, Spring 2026. The [original academic report](reports/original_report.pdf) is preserved in this repository. The dashboard, SQL, Python pipeline, uncertainty analysis and reproducibility tooling are portfolio additions.
 
 - [Dataset attribution and links](data/README.md)
 - [R statistical reference manual](https://stat.ethz.ch/R-manual/R-devel/library/stats/html/00Index.html)

@@ -2,7 +2,7 @@
 
 ## Delivered
 
-The repository extends Youssef Rafik’s Spring 2026 MAT 429 work. The original PDF, R script and CSV were copied byte for byte. The expanded project uses the same four research questions and retains the supplied 1,338 observations. See the [academic audit](PROJECT_AUDIT.md) for the original methods and limitations.
+The repository extends Youssef Rafik’s Spring 2026 MAT 429 work. The original PDF, R script and CSV were verified byte for byte during the build. The current repository includes the academic PDF, and the original R script remains with the academic source files. The expanded project uses the same four research questions and retains the supplied 1,338 observations. See the [academic audit](PROJECT_AUDIT.md) for the original methods and limitations.
 
 The additions are reusable R modules, a separate Python implementation, validation reports, seeded bootstrap intervals, directed effect sizes, comparisons of means and ranks, sensitivity checks, a DuckDB analytics layer, 10 SQL result sets, static graphics, a seven-section Streamlit dashboard, and Quarto HTML and PDF reports. The GitHub Actions workflow uses synthetic inputs for tests. Predictive modeling was left outside the scope of this implementation.
 
@@ -53,7 +53,7 @@ python -m streamlit run dashboard/app.py --server.address 127.0.0.1
 ## GitHub publication checklist
 
 - [x] Local Git repository initialized on `main`.
-- [x] Original materials retained locally and a code license provided.
+- [x] Original academic report included and a code license provided.
 - [x] Raw CSV, database, environments, caches and secret configuration excluded by Git.
 - [x] Reports, aggregate tables, figures, screenshots and CI configuration prepared.
 - [ ] Confirm data redistribution terms before adding the CSV or any row-level export. Review publication rights for the academic report and source-derived figures before pushing.
