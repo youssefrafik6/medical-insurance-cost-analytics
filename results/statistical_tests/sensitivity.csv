@@ -1,0 +1,21 @@
+test,statistic,p_value,scenario,n
+wilcoxon_sex,221304.0,0.7286510894470093,All observations,1338
+welch_sex,-2.1008878232359565,0.03584101495601666,All observations,1338
+kruskal_region,4.734181215658743,0.19232908072121044,All observations,1338
+anova_region,2.9696266935891193,0.030893356070497386,All observations,1338
+welch_region,2.6080680755736956,0.05059276321932917,All observations,1338
+wilcoxon_sex,220652.0,0.6944793894954917,Exact repeats collapsed,1337
+welch_sex,-2.1275372170149476,0.033561547636765825,Exact repeats collapsed,1337
+kruskal_region,4.622506584465555,0.20161983372303943,Exact repeats collapsed,1337
+anova_region,2.926139903662777,0.03276288025447231,Exact repeats collapsed,1337
+welch_region,2.566222713601441,0.053488994346554804,Exact repeats collapsed,1337
+wilcoxon_sex,189488.0,0.09976804364618432,Outside pooled IQR fences excluded,1199
+welch_sex,0.8422556245797814,0.39981431284601743,Outside pooled IQR fences excluded,1199
+kruskal_region,10.714610405195028,0.013373555186691612,Outside pooled IQR fences excluded,1199
+anova_region,3.3817657175258766,0.017680615823282123,Outside pooled IQR fences excluded,1199
+welch_region,3.6994362668426835,0.011646403502414256,Outside pooled IQR fences excluded,1199
+wilcoxon_sex,221247.0,0.7225828515695356,Upper 5% capped at pooled cutoff,1338
+welch_sex,-2.120059748850314,0.03418838700318609,Upper 5% capped at pooled cutoff,1338
+kruskal_region,4.793164333390866,0.18758448963390958,Upper 5% capped at pooled cutoff,1338
+anova_region,2.812768830050504,0.03817216230346698,Upper 5% capped at pooled cutoff,1338
+welch_region,2.542411808809624,0.055207692092526954,Upper 5% capped at pooled cutoff,1338
