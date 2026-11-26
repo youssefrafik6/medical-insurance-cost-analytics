@@ -1,8 +1,6 @@
 # Medical Insurance Cost Analytics
 
-A reproducible R, Python and DuckDB analysis of 1,338 educational medical insurance records. The project shows how charge distributions, upper-tail observations and differences in group composition can affect an analyst’s conclusions.
-
-A healthcare analytics team needs to explain whether a segment has higher typical charges, higher average charges, or a heavier upper tail. Those questions can produce different answers in the same dataset. This project makes each comparison visible and quantifies uncertainty.
+Analyze charge distributions across 1,338 educational medical insurance records. R and Python compare means, medians, and upper tails, while DuckDB and Streamlit support SQL queries and interactive exploration.
 
 The dataset records charges for a historical teaching sample. The comparisons below describe associations in that sample.
 
@@ -92,9 +90,9 @@ GitHub Actions runs Python, SQL, Streamlit component and R tests using synthetic
 
 The sampling process and observation period are unknown. The data support educational comparisons of recorded charges. Confounding, limited demographic categories and unknown representativeness prevent causal, pricing or underwriting conclusions. Future work could validate the workflow on properly governed, documented samples and prespecify adjusted comparisons. See [Limitations](docs/LIMITATIONS.md).
 
-## Author and references
+## License and references
 
-**Youssef Rafik.** Based on *Non-Parametric Analysis of Medical Insurance Charges*, MAT 429 — Modern Nonparametric Methods, Southern Connecticut State University, Spring 2026. The [original academic report](reports/original_report.pdf) is preserved in this repository. The dashboard, SQL, Python pipeline, uncertainty analysis and reproducibility tooling are portfolio additions.
+[License](LICENSE) · [Non-Parametric Analysis of Medical Insurance Charges](reports/original_report.pdf), Youssef Rafik, Southern Connecticut State University, Spring 2026.
 
 - [Dataset attribution and links](data/README.md)
 - [R statistical reference manual](https://stat.ethz.ch/R-manual/R-devel/library/stats/html/00Index.html)
