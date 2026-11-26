@@ -44,11 +44,11 @@ def test_comparison_catches_missing_and_small_p_values(sample):
 def test_published_r_and_python_agree():
     import pandas as pd
 
-    from python.data_loader import ROOT
+    from python.data_loader import ROOT, load_data
 
     folder = ROOT / "results/statistical_tests"
     computed = verify(
-        pd.read_csv(folder / "python_tests.csv"),
+        run_tests(load_data()),
         pd.read_csv(folder / "r_tests.csv"),
         "test",
         ["statistic", "p_value"],

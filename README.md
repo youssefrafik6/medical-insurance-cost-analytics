@@ -4,6 +4,8 @@ A reproducible R, Python and DuckDB analysis of 1,338 educational medical insura
 
 A healthcare analytics team needs to explain whether a segment has higher typical charges, higher average charges, or a heavier upper tail. Those questions can produce different answers in the same dataset. This project makes each comparison visible and quantifies uncertainty.
 
+The dataset records charges for a historical teaching sample. The comparisons below describe associations in that sample.
+
 ## Findings
 
 | Question | Result |
