@@ -55,3 +55,11 @@ def test_published_r_and_python_agree():
     )
     assert len(computed) == 17
     assert computed[["statistic_agreement", "p_value_agreement"]].to_numpy().all()
+    estimates = verify(
+        effects(load_data(), repeats=20)[["effect", "estimate"]],
+        pd.read_csv(folder / "r_effects.csv")[["effect", "estimate"]],
+        "effect",
+        ["estimate"],
+    )
+    assert len(estimates) == 10
+    assert estimates["estimate_agreement"].all()
