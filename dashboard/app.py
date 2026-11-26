@@ -98,7 +98,7 @@ def main() -> None:
     """Run the dashboard."""
     st.set_page_config(page_title="Medical Insurance Cost Analytics", layout="wide")
     st.title("Medical Insurance Cost Analytics")
-    st.caption("Explore recorded charges in the MAT 429 educational dataset.")
+    st.caption("Explore charge distributions in an educational medical insurance dataset.")
     try:
         frame = load_data()
         require_valid(frame)
