@@ -1,4 +1,4 @@
-"""Portfolio graphics and a shared dashboard figure style."""
+"""Charge distribution plots and shared dashboard styling."""
 
 from pathlib import Path
 
