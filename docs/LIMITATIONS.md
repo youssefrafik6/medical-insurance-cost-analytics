@@ -6,4 +6,4 @@ All comparisons are observational and unadjusted. Age, smoking status and other 
 
 Binary recorded sex labels simplify demographic categories and may misrepresent identities. Regional and BMI categories can obscure within-group variation. Small combined segments can be unstable. These findings support practice in analytics and communication. Validated representative data, governance and fairness evaluation would be necessary before applying similar methods to operational decisions. This project provides no pricing or underwriting guidance.
 
-The academic report is retained as historical context. See [Data and provenance](../data/README.md) for redistribution status.
+The academic report is retained as historical context. See [Data and provenance](../data/README.md) for dataset attribution.

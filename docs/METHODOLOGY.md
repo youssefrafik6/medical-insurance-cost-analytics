@@ -14,4 +14,4 @@ See [Statistical assumptions](STATISTICAL_ASSUMPTIONS.md), [Findings and sensiti
 
 ## Reproduction and verification
 
-Follow the [local reproduction commands](../README.md#reproduce-locally) with an authorized CSV. Independent R and Python runs on all 1,338 observations agreed within tolerance on 17 paired test statistics and p-values and 10 effect estimates. DuckDB executed all 10 bundled queries. Quarto 1.6.42 produced standalone HTML and a five-page Typst PDF on arm64 macOS with Python 3.13.2 and R 4.5.2. The source CSV and local database are excluded from version control.
+Follow the [local reproduction commands](../README.md#reproduce-locally) with the bundled CSV. Independent R and Python runs on all 1,338 observations agreed within tolerance on 17 paired test statistics and p-values and 10 effect estimates. DuckDB executed all 10 bundled queries. Quarto 1.6.42 produced standalone HTML and a five-page Typst PDF on arm64 macOS with Python 3.13.2 and R 4.5.2. The generated local database is excluded from version control.

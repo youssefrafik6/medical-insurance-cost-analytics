@@ -1,16 +1,14 @@
 # Data and provenance
 
-The byte-preserved MAT 429 source belongs at `raw/insurance.csv`. The academic
-copy has SHA-256 `388eff679557d08ac19f463d025de5e0b4adc482537c8456d19934d78621fd47`.
-Use your authorized copy or set the `INSURANCE_CSV` environment variable.
+The app loads the bundled [insurance.csv](raw/insurance.csv) by default.
+Set `INSURANCE_CSV` to use another compatible file. The bundled copy is the
+byte-preserved MAT 429 source with SHA-256
+`388eff679557d08ac19f463d025de5e0b4adc482537c8456d19934d78621fd47`.
 
-The layout and counts are consistent with the educational Medical Cost Personal
-Datasets release associated with Brett Lantz's *Machine Learning with R*.
-CRAN package documentation identifies this lineage. The GitHub mirror makes a
-public-domain assertion, but gives no source-specific chain of rights for this
-file. The Kaggle page did not supply independently verifiable upstream rights
-during this review. Keep the CSV and derived row-level files out of Git pending
-confirmation. The code license does not extend to the data.
+All 1,338 rows match the published educational dataset associated with Brett
+Lantz's *Machine Learning with R* in both values and order. The educational
+mirror describes its datasets as public domain. The repository's software
+license applies to the code.
 
 - [Kaggle dataset listing](https://www.kaggle.com/datasets/mirichoi0218/insurance)
 - [Dataset attribution in CRAN documentation](https://search.r-project.org/CRAN/refmans/PPtreeregViz/html/insurance.html)
