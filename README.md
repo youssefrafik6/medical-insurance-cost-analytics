@@ -27,7 +27,7 @@ The Streamlit workspace includes overview, demographics, smoking, region, correl
 
 ## Data and methods
 
-The original dataset contains age, sex, BMI, children, smoker, region and charges. Validation found zero missing values, one exact repeat and 139 pooled IQR outliers. The primary analysis retained every row. See the [data dictionary and provenance](data/README.md) for access and redistribution details.
+The original dataset contains age, sex, BMI, children, smoker, region and charges. Validation found zero missing values, one exact repeat and 139 pooled IQR outliers. The primary analysis retained every row. See the [data dictionary and provenance](data/README.md) for the downloadable CSV and its attribution.
 
 R uses tidyverse, ggplot2, dplyr, broom and rstatix for the academic replication and effect estimates. Python uses pandas, NumPy, SciPy and statsmodels for independent analyses and Matplotlib and Plotly for graphics. Both pipelines use descriptive summaries, Shapiro–Wilk, Wilcoxon rank-sum, Kruskal–Wallis, Bonferroni pairwise tests, Welch t-tests, ANOVA, Spearman correlations and seeded percentile bootstrap intervals. DuckDB stores a validated local snapshot and executes SQL segment and tail comparisons. Quarto builds the technical report.
 
@@ -40,7 +40,7 @@ R uses tidyverse, ggplot2, dplyr, broom and rstatix for the academic replication
 
 ## Reproduce locally
 
-Use Python 3.13, R 4.5.2 and Quarto with bundled Typst for PDF output. The project was exercised on arm64 macOS. Run commands from the repository root. Use your authorized CSV at `data/raw/insurance.csv` or export `INSURANCE_CSV` with the path to it.
+Use Python 3.13, R 4.5.2 and Quarto with bundled Typst for PDF output. The project was exercised on arm64 macOS. Run commands from the repository root. The dashboard and analysis use the bundled `data/raw/insurance.csv` by default. Set `INSURANCE_CSV` to point to another compatible file.
 
 ```bash
 python3.13 -m venv .venv

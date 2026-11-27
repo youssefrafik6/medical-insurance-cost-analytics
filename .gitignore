@@ -15,6 +15,7 @@ Rplots.pdf
 renv/library/
 renv/staging/
 data/raw/*.csv
+!data/raw/insurance.csv
 data/processed/*
 !data/processed/README.md
 reports/.quarto/
