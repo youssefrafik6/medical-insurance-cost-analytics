@@ -2,7 +2,7 @@
 
 A reproducible R, Python and DuckDB analysis of 1,338 educational medical insurance records. The project shows how charge distributions, upper-tail observations and differences in group composition can affect an analyst’s conclusions.
 
-[Source code](https://github.com/youssefrafik6/medical-insurance-cost-analytics) · [Methodology](docs/METHODOLOGY.md) · [Findings](docs/KEY_FINDINGS.md)
+[Live demo](https://medical-insurance-cost-analytics-hwvatcroxxhihuzadzb69w.streamlit.app/) · [Source code](https://github.com/youssefrafik6/medical-insurance-cost-analytics) · [Methodology](docs/METHODOLOGY.md) · [Findings](docs/KEY_FINDINGS.md)
 
 ## Findings
 
