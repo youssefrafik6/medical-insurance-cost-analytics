@@ -11,3 +11,7 @@ In R and Python, Wilcoxon/Mann–Whitney is explicitly asymptotic with continuit
 The verification table compares matched point estimates, test statistics and p-values at relative tolerance 2 × 10⁻⁶ and zero absolute tolerance. This preserves discrimination for very small positive p-values. Two-sided alternatives, group orientation and Bonferroni scope are explicit. Different software defaults can select exact tests, omit a continuity correction or use a different rank convention, especially with ties. The two seeded bootstraps use independent implementation-specific random streams, so intervals are published side by side as separate artifacts.
 
 See [Statistical assumptions](STATISTICAL_ASSUMPTIONS.md), [Findings and sensitivity](KEY_FINDINGS.md) and [Limitations](LIMITATIONS.md).
+
+## Reproduction and verification
+
+Follow the [local reproduction commands](../README.md#reproduce-locally) with an authorized CSV. Independent R and Python runs on all 1,338 observations agreed within tolerance on 17 paired test statistics and p-values and 10 effect estimates. DuckDB executed all 10 bundled queries. Quarto 1.6.42 produced standalone HTML and a five-page Typst PDF on arm64 macOS with Python 3.13.2 and R 4.5.2. The source CSV and local database are excluded from version control.

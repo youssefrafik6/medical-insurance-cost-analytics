@@ -2,7 +2,7 @@
 
 A reproducible R, Python and DuckDB analysis of 1,338 educational medical insurance records. The project shows how charge distributions, upper-tail observations and differences in group composition can affect an analyst’s conclusions.
 
-A healthcare analytics team needs to explain whether a segment has higher typical charges, higher average charges, or a heavier upper tail. Those questions can produce different answers in the same dataset. This project makes each comparison visible and quantifies uncertainty.
+[Source code](https://github.com/youssefrafik6/medical-insurance-cost-analytics) · [Methodology](docs/METHODOLOGY.md) · [Findings](docs/KEY_FINDINGS.md)
 
 ## Findings
 
@@ -92,7 +92,7 @@ The sampling process and observation period are unknown. The data support educat
 
 ## Author and references
 
-**Youssef Rafik.** Based on *Non-Parametric Analysis of Medical Insurance Charges*, MAT 429 — Modern Nonparametric Methods, Southern Connecticut State University, Spring 2026. The [original academic report](reports/original_report.pdf) is preserved in this repository. The dashboard, SQL, Python pipeline, uncertainty analysis and reproducibility tooling are portfolio additions.
+**Youssef Rafik.** Based on *Non-Parametric Analysis of Medical Insurance Charges*, MAT 429 — Modern Nonparametric Methods, Southern Connecticut State University, Spring 2026. The [original academic report](reports/original_report.pdf) is preserved in this repository.
 
 - [Dataset attribution and links](data/README.md)
 - [R statistical reference manual](https://stat.ethz.ch/R-manual/R-devel/library/stats/html/00Index.html)
